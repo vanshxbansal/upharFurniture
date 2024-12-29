@@ -343,3 +343,49 @@ footer {
     line-height: 20px;
   }
 }
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 30px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-left {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 9px;
+  color: #333;
+}
+
+.footer-centre {
+  text-align: center;
+  align-self: center;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 5px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
