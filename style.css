@@ -63,7 +63,7 @@ h2 {
 
 .btn:link,
 .btn:visited {
-  background-color: #005743;
+  background: linear-gradient(90deg, #005743 0%, #01786e 100%);
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
